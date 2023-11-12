@@ -1,0 +1,54 @@
+.card {
+    width: 18rem;
+    position: relative;
+}
+
+.card-icons {
+    flex-direction: column;
+    font-size: 25px;
+    color: rgb(46, 47, 46);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.red {
+    color: red;
+}
+
+.canvas {
+    width: 400px;
+    position: fixed;
+    left: -100%;
+    transition: all .4s;
+    top: 0;
+    padding: 20px;
+    bottom: 0;
+    background: #eee;
+    z-index: 99;
+}
+
+.active {
+    left: 0;
+} 
+.offcanvas-backdrop{
+    display: none;
+}
+input{
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#helper{
+    display: none;
+    color: red;
+    font-size: 10px;
+    margin: -5px 0 0 20px; 
+
+}
